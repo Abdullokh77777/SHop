@@ -1,0 +1,36 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  background-color: #343B43;
+  padding: 80px;
+}
+
+.main__card{
+  width: 700px;
+  height: 400px;
+  background-color: #6ABFA0;
+  border: 10px solid #252b31;
+}
+
+.main__text h1{
+  color: white;
+}
+
+.main__text p{
+  color: white;
+  padding-top: 30px;
+}
+
+.main__text p b{
+  color: rgb(217, 217, 7);
+}
